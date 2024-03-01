@@ -25,7 +25,7 @@ namespace Airport_Operator_Simulation.View.Class
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(165, 138);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(208, 16);
+            this.label2.Size = new System.Drawing.Size(163, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Неправильно введены данные";
             // 

@@ -72,7 +72,7 @@ namespace Airport_Operator_Simulation
             for (int i = 0; i < terminals.Length; i++)
             {
                 tmp += terminals[i].number;
-                _chart.Series["Passenger"].Points.AddXY(i, terminals[i].time);
+                _chart.Series["Passenger"].Points.AddXY(i + 1, terminals[i].time);
             }
             _view.stop = tmp.ToString();
             saveLoad.Save(values, "C:\\Users\\Денис\\Desktop\\Airport-Operator-Simulation-master\\Airport Operator Simulation\\Save\\save.json");
