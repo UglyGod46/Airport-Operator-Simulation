@@ -272,7 +272,6 @@ namespace Airport_Operator_Simulation.View.Class
             ((System.ComponentModel.ISupportInitialize)(this.chart)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
     }
 }

@@ -55,7 +55,6 @@
   <ItemGroup>
     <Compile Include="Models\ExponentialDistribution.cs" />
     <Compile Include="Models\Human.cs" />
-    <Compile Include="Models\NormalDistribution.cs" />
     <Compile Include="Models\Randoms.cs" />
     <Compile Include="Models\Save.cs" />
     <Compile Include="Models\Terminal.cs" />
